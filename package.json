@@ -1,0 +1,22 @@
+{
+  "name": "changeset-project01",
+  "version": "0.1.0",
+  "description": "no description",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "no",
+    "keywords"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.25.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
